@@ -22,3 +22,8 @@ export const db = getFirestore(app);
 export const storage = getStorage(app);
 
 export default app;
+console.log("--- DEBUG FIREBASE ---");
+console.log("API KEY:", process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
+console.log("PROJECT ID:", process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID);
+console.log("----------------------");
+
