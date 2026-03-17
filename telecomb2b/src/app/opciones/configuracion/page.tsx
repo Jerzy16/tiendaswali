@@ -541,6 +541,7 @@ useEffect(() => {
                   />
                 </div>
                 <div>
+                  <label className="text-white text-sm block mb-1">{t('settings.newPassword')}</label>
                   <label className="config-text-primary text-sm block mb-1 font-medium">{t('settings.newPassword')}</label>
                   <input
                     type="password"
@@ -551,6 +552,7 @@ useEffect(() => {
                   />
                 </div>
                 <div>
+                  <label className="text-white text-sm block mb-1">{t('settings.confirmPassword')}</label>
                   <label className="config-text-primary text-sm block mb-1 font-medium">{t('settings.confirmPassword')}</label>
                   <input
                     type="password"
